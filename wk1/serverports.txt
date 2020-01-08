@@ -1,0 +1,22 @@
+• What is the definition of server port?
+a communication endpoint, where physical and wireless connections are terminated for hardware devices. 
+within OS, port identifies a process or type of network service. identified by 16 bit unsigned numbers, aka port number. 
+protocols that use port numbers are TCP and UDP.
+
+• What is server port range?
+range is from 0 - 65535
+
+• How many bits does number above represent?
+16 bits
+
+• State 10 common server ports
+1     TCP
+20    FTP
+22    SSH
+53    DNS
+80    HTTP
+118   SQL services
+443   HTTPS
+546   DHCP client
+546   DHCP server
+1080  socks
