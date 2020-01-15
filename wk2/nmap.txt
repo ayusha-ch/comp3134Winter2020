@@ -1,0 +1,81 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap 35.241.61.24
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:24 UTC
+Nmap scan report for 24.61.241.35.bc.googleusercontent.com (35.241.61.24)
+Host is up (0.00075s latency).
+Not shown: 980 filtered ports
+PORT     STATE SERVICE
+25/tcp   open  smtp
+43/tcp   open  whois
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+465/tcp  open  smtps
+587/tcp  open  submission
+700/tcp  open  epp
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3389/tcp open  ms-wbt-server
+5222/tcp open  xmpp-client
+5432/tcp open  postgresql
+5900/tcp open  vnc
+5901/tcp open  vnc-1
+8080/tcp open  http-proxy
+8085/tcp open  unknown
+8099/tcp open  unknown
+9200/tcp open  wap-wsp
+
+Nmap done: 1 IP address (1 host up) scanned in 29.42 seconds
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 8099 35.241.61.24
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:27 UTC
+Nmap scan report for 24.61.241.35.bc.googleusercontent.com (35.241.61.24)
+Host is up (0.0017s latency).
+
+PORT     STATE    SERVICE
+8099/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 2.47 seconds
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 8080 8099 35.241.61.24
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:28 UTC
+setup_target: failed to determine route to 8099 (0.0.31.163)
+Nmap scan report for 24.61.241.35.bc.googleusercontent.com (35.241.61.24)
+Host is up (0.0011s latency).
+
+PORT     STATE SERVICE
+8080/tcp open  http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+
+
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F 35.241.61.24
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-15 16:29 UTC
+Nmap scan report for 24.61.241.35.bc.googleusercontent.com (35.241.61.24)
+Host is up (0.00089s latency).
+Not shown: 87 filtered ports
+PORT     STATE SERVICE
+25/tcp   open  smtp
+80/tcp   open  http
+110/tcp  open  pop3
+143/tcp  open  imap
+443/tcp  open  https
+465/tcp  open  smtps
+587/tcp  open  submission
+993/tcp  open  imaps
+995/tcp  open  pop3s
+3389/tcp open  ms-wbt-server
+5432/tcp open  postgresql
+5900/tcp open  vnc
+8080/tcp open  http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 3.84 seconds

@@ -1,0 +1,19 @@
+Domain name: bb-gbc.blackboard.com
+IP Address: 69.196.236.11
+Geolocation: US (United States), DC, District of Columbia, 20036 Washington
+
+Domain name: netflix.com
+IP Address: 54.165.157.123
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+
+Domain Name: dropbox.com
+IP Address: 162.125.248.1
+Geolocation: US (United States), CA, California, 94107 San Francisco
+
+Domain Name: youtube.com
+IP Address: 172.217.12.142
+Geolocation: US (United States), CA, California, 94043 Mountain View
+
+Domain Name: posterfoundry.com
+IP Address: 35.241.61.24
+Geolocation: US (United States), CA, California, 94043 Mountain View
