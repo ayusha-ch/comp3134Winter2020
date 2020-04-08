@@ -1,0 +1,97 @@
+tcpdump udp -vv
+
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+16:16:09.661446 IP (tos 0x10, ttl 64, id 3071, offset 0, flags [DF], proto UDP (17), length 76)
+    lamp-s-1vcpu-1gb-tor1-01.58620 > pugot.canonical.com.ntp: [bad udp cksum 0x8d85 -> 0x79f2!] NTPv4, length 48
+        Client, Leap indicator:  (0), Stratum 0 (unspecified), poll 0 (1s), precision 0
+        Root Delay: 0.000000, Root dispersion: 0.000000, Reference-ID: (unspec)
+          Reference Timestamp:  0.000000000
+          Originator Timestamp: 0.000000000
+          Receive Timestamp:    0.000000000
+          Transmit Timestamp:   3790512969.153995704 (2020/02/12 16:16:09)
+            Originator - Receive Timestamp:  0.000000000
+            Originator - Transmit Timestamp: 3790512969.153995704 (2020/02/12 16:16:09)
+16:16:09.662560 IP (tos 0x0, ttl 64, id 10734, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-s-1vcpu-1gb-tor1-01.33927 > 67.207.67.2.domain: [bad udp cksum 0x5a9a -> 0x5288!] 46519+ [1au] PTR? 4.94.189.91.in-addr.arpa. ar: . OPT UDPsize=512 (53)
+16:16:09.663623 IP (tos 0x0, ttl 63, id 29956, offset 0, flags [DF], proto UDP (17), length 114)
+    67.207.67.2.domain > lamp-s-1vcpu-1gb-tor1-01.33927: [udp sum ok] 46519 q: PTR? 4.94.189.91.in-addr.arpa. 1/0/1 4.94.189.91.in-addr.arpa. PTR pugot.canonical.com. ar: . OPT UDPsize=512 (86)
+16:16:09.664141 IP (tos 0x0, ttl 64, id 10735, offset 0, flags [DF], proto UDP (17), length 84)
+    lamp-s-1vcpu-1gb-tor1-01.55939 > 67.207.67.2.domain: [bad udp cksum 0x5a9d -> 0xeec2!] 19811+ [1au] PTR? 151.45.227.165.in-addr.arpa. ar: . OPT UDPsize=512 (56)
+16:16:09.682284 IP (tos 0x0, ttl 63, id 29959, offset 0, flags [DF], proto UDP (17), length 151)
+    67.207.67.2.domain > lamp-s-1vcpu-1gb-tor1-01.55939: [udp sum ok] 19811 NXDomain q: PTR? 151.45.227.165.in-addr.arpa. 0/1/1 ns: 45.227.165.in-addr.arpa. SOA ns1.digitalocean.com. hostmaster.45.227.165.in-addr.arpa. 1581516748 10800 3600 604800 1800 ar: . OPT UDPsize=512 (123)
+16:16:09.682610 IP (tos 0x0, ttl 64, id 10736, offset 0, flags [DF], proto UDP (17), length 73)
+    lamp-s-1vcpu-1gb-tor1-01.55939 > 67.207.67.2.domain: [bad udp cksum 0x5a92 -> 0xf102!] 19811+ PTR? 151.45.227.165.in-addr.arpa. (45)
+16:16:09.706764 IP (tos 0x0, ttl 63, id 29960, offset 0, flags [DF], proto UDP (17), length 140)
+    67.207.67.2.domain > lamp-s-1vcpu-1gb-tor1-01.55939: [udp sum ok] 19811 NXDomain q: PTR? 151.45.227.165.in-addr.arpa. 0/1/0 ns: 45.227.165.in-addr.arpa. SOA ns1.digitalocean.com. hostmaster.45.227.165.in-addr.arpa. 1581516748 10800 3600 604800 1800 (112)
+16:16:09.707939 IP (tos 0x0, ttl 64, id 10738, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-s-1vcpu-1gb-tor1-01.60279 > 67.207.67.2.domain: [bad udp cksum 0x5a9a -> 0xaf85!] 62160+ [1au] PTR? 2.67.207.67.in-addr.arpa. ar: . OPT UDPsize=512 (53)
+16:16:09.745811 IP (tos 0x0, ttl 53, id 14556, offset 0, flags [DF], proto UDP (17), length 76)
+    pugot.canonical.com.ntp > lamp-s-1vcpu-1gb-tor1-01.58620: [udp sum ok] NTPv4, length 48
+        Server, Leap indicator:  (0), Stratum 2 (secondary reference), poll 3 (8s), precision -23
+        Root Delay: 0.030380, Root dispersion: 0.021484, Reference-ID: ntp0.rrze.uni-erlangen.de
+          Reference Timestamp:  3790512621.887836049 (2020/02/12 16:10:21)
+          Originator Timestamp: 3790512969.153995704 (2020/02/12 16:16:09)
+          Receive Timestamp:    3790512969.703454483 (2020/02/12 16:16:09)
+          Transmit Timestamp:   3790512969.703533851 (2020/02/12 16:16:09)
+            Originator - Receive Timestamp:  +0.549458779
+            Originator - Transmit Timestamp: +0.549538146
+16:16:09.746710 IP (tos 0x0, ttl 64, id 10746, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-s-1vcpu-1gb-tor1-01.59338 > 67.207.67.2.domain: [bad udp cksum 0x5a9c -> 0x5065!] 34574+ [1au] PTR? 220.3.188.131.in-addr.arpa. ar: . OPT UDPsize=512 (55)
+16:16:10.661518 IP (tos 0x0, ttl 64, id 56236, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-s-1vcpu-1gb-tor1-01.45242 > 67.207.67.3.domain: [bad udp cksum 0x5a9d -> 0x8774!] 34574+ [1au] PTR? 220.3.188.131.in-addr.arpa. ar: . OPT UDPsize=512 (55)
+16:16:11.017756 IP (tos 0x0, ttl 63, id 44788, offset 0, flags [DF], proto UDP (17), length 122)
+    67.207.67.3.domain > lamp-s-1vcpu-1gb-tor1-01.45242: [udp sum ok] 34574 q: PTR? 220.3.188.131.in-addr.arpa. 1/0/1 220.3.188.131.in-addr.arpa. PTR ntp0.rrze.uni-erlangen.de. ar: . OPT UDPsize=512 (94)
+16:16:11.019293 IP (tos 0x0, ttl 64, id 56246, offset 0, flags [DF], proto UDP (17), length 81)
+    lamp-s-1vcpu-1gb-tor1-01.47396 > 67.207.67.3.domain: [bad udp cksum 0x5a9b -> 0x7f3e!] 21865+ [1au] PTR? 3.67.207.67.in-addr.arpa. ar: . OPT UDPsize=512 (53)
+16:16:11.020070 IP (tos 0x0, ttl 63, id 44789, offset 0, flags [DF], proto UDP (17), length 148)
+    67.207.67.3.domain > lamp-s-1vcpu-1gb-tor1-01.47396: [udp sum ok] 21865 NXDomain q: PTR? 3.67.207.67.in-addr.arpa. 0/1/1 ns: 67.207.67.in-addr.arpa. SOA ns1.digitalocean.com. hostmaster.67.207.67.in-addr.arpa. 1504365600 10800 3600 604800 1800 ar: . OPT UDPsize=512 (120)
+16:16:11.020768 IP (tos 0x0, ttl 64, id 56247, offset 0, flags [DF], proto UDP (17), length 70)
+    lamp-s-1vcpu-1gb-tor1-01.47396 > 67.207.67.3.domain: [bad udp cksum 0x5a90 -> 0xa857!] 21865+ PTR? 3.67.207.67.in-addr.arpa. (42)
+16:16:11.021425 IP (tos 0x0, ttl 63, id 44790, offset 0, flags [DF], proto UDP (17), length 137)
+    67.207.67.3.domain > lamp-s-1vcpu-1gb-tor1-01.47396: [udp sum ok] 21865 NXDomain q: PTR? 3.67.207.67.in-addr.arpa. 0/1/0 ns: 67.207.67.in-addr.arpa. SOA ns1.digitalocean.com. hostmaster.67.207.67.in-addr.arpa. 1504365600 10800 3600 604800 1800 (109)
+16:16:11.519528 IP (tos 0x0, ttl 63, id 30259, offset 0, flags [DF], proto UDP (17), length 122)
+    67.207.67.2.domain > lamp-s-1vcpu-1gb-tor1-01.59338: [udp sum ok] 34574 q: PTR? 220.3.188.131.in-addr.arpa. 1/0/1 220.3.188.131.in-addr.arpa. PTR ntp0.rrze.uni-erlangen.de. ar: . OPT UDPsize=512 (94)
+16:16:12.987647 IP (tos 0x0, ttl 250, id 54321, offset 0, flags [none], proto UDP (17), length 127)
+    zg-0131a-159.stretchoid.com.41296 > lamp-s-1vcpu-1gb-tor1-01.1900: [no cksum] UDP, length 99
+16:16:12.988445 IP (tos 0x0, ttl 64, id 56452, offset 0, flags [DF], proto UDP (17), length 84)
+    lamp-s-1vcpu-1gb-tor1-01.44894 > 67.207.67.3.domain: [bad udp cksum 0x5a9e -> 0x581e!] 59737+ [1au] PTR? 11.128.243.162.in-addr.arpa. ar: . OPT UDPsize=512 (56)
+16:16:13.001550 IP (tos 0x0, ttl 63, id 45024, offset 0, flags [DF], proto UDP (17), length 125)
+    67.207.67.3.domain > lamp-s-1vcpu-1gb-tor1-01.44894: [udp sum ok] 59737 q: PTR? 11.128.243.162.in-addr.arpa. 1/0/1 11.128.243.162.in-addr.arpa. PTR zg-0131a-159.stretchoid.com. ar: . OPT UDPsize=512 (97)
+16:16:51.339048 IP (tos 0x0, ttl 241, id 54321, offset 0, flags [none], proto UDP (17), length 220)
+    193.29.15.183.49733 > lamp-s-1vcpu-1gb-tor1-01.ldap: [no cksum] UDP, length 192
+16:16:51.340085 IP (tos 0x0, ttl 64, id 57489, offset 0, flags [DF], proto UDP (17), length 83)
+    lamp-s-1vcpu-1gb-tor1-01.51984 > 67.207.67.3.domain: [bad udp cksum 0x5a9d -> 0x1ada!] 41086+ [1au] PTR? 183.15.29.193.in-addr.arpa. ar: . OPT UDPsize=512 (55)
+16:16:51.418027 IP (tos 0x0, ttl 63, id 50338, offset 0, flags [DF], proto UDP (17), length 143)
+    67.207.67.3.domain > lamp-s-1vcpu-1gb-tor1-01.51984: [udp sum ok] 41086 NXDomain q: PTR? 183.15.29.193.in-addr.arpa. 0/1/1 ns: 193.in-addr.arpa. SOA pri.authdns.ripe.net. dns.ripe.net. 1581520915 3600 600 864000 3600 ar: . OPT UDPsize=512 (115)
+16:16:51.418209 IP (tos 0x0, ttl 64, id 57506, offset 0, flags [DF], proto UDP (17), length 72)
+    lamp-s-1vcpu-1gb-tor1-01.51984 > 67.207.67.3.domain: [bad udp cksum 0x5a92 -> 0x43f3!] 41086+ PTR? 183.15.29.193.in-addr.arpa. (44)
+16:16:51.491591 IP (tos 0x0, ttl 63, id 50349, offset 0, flags [DF], proto UDP (17), length 132)
+    67.207.67.3.domain > lamp-s-1vcpu-1gb-tor1-01.51984: [udp sum ok] 41086 NXDomain q: PTR? 183.15.29.193.in-addr.arpa. 0/1/0 ns: 193.in-addr.arpa. SOA pri.authdns.ripe.net. dns.ripe.net. 1581520915 3600 600 864000 3600 (104)
+16:19:03.838272 IP (tos 0x0, ttl 52, id 49987, offset 0, flags [DF], proto UDP (17), length 91)
+    hero.sixwishlist.com.49551 > lamp-s-1vcpu-1gb-tor1-01.37810: [udp sum ok] UDP, length 63
+16:19:03.838972 IP (tos 0x0, ttl 64, id 9173, offset 0, flags [DF], proto UDP (17), length 84)
+    lamp-s-1vcpu-1gb-tor1-01.51877 > 67.207.67.3.domain: [bad udp cksum 0x5a9e -> 0x120d!] 4123+ [1au] PTR? 48.241.154.195.in-addr.arpa. ar: . OPT UDPsize=512 (56)
+16:19:03.839823 IP (tos 0x0, ttl 63, id 1892, offset 0, flags [DF], proto UDP (17), length 118)
+    67.207.67.3.domain > lamp-s-1vcpu-1gb-tor1-01.51877: [udp sum ok] 4123 q: PTR? 48.241.154.195.in-addr.arpa. 1/0/1 48.241.154.195.in-addr.arpa. PTR hero.sixwishlist.com. ar: . OPT UDPsize=512 (90)
+16:19:23.074566 IP (tos 0x18, ttl 55, id 29084, offset 0, flags [DF], proto UDP (17), length 441)
+    ip223.ip-92-222-209.eu.5100 > lamp-s-1vcpu-1gb-tor1-01.sip: [udp sum ok] SIP, length: 413
+        INVITE sip:100@165.227.45.151 SIP/2.0
+        Via: SIP/2.0/UDP 92.222.209.223:5100;branch=z9hG4bK-1008566242;rport
+        Content-Length: 0
+        From: "sipvicious"<sip:100@1.1.1.1>;tag=61356533326439373133633401373035363730393931
+        Accept: application/sdp
+        User-Agent: friendly-scanner
+        To: "sipvicious"<sip:100@1.1.1.1>
+        Contact: sip:100@92.222.209.223:5100
+        CSeq: 1 INVITE
+        Call-ID: 586213267310334508806391
+        Max-Forwards: 70
+
+16:19:23.075285 IP (tos 0x0, ttl 64, id 11307, offset 0, flags [DF], proto UDP (17), length 84)
+    lamp-s-1vcpu-1gb-tor1-01.49350 > 67.207.67.3.domain: [bad udp cksum 0x5a9e -> 0x3dee!] 33931+ [1au] PTR? 223.209.222.92.in-addr.arpa. ar: . OPT UDPsize=512 (56)
+16:19:23.076885 IP (tos 0x0, ttl 63, id 3509, offset 0, flags [DF], proto UDP (17), length 120)
+    67.207.67.3.domain > lamp-s-1vcpu-1gb-tor1-01.49350: [udp sum ok] 33931 q: PTR? 223.209.222.92.in-addr.arpa. 1/0/1 223.209.222.92.in-addr.arpa. PTR ip223.ip-92-222-209.eu. ar: . OPT UDPsize=512 (92)
+^C
+31 packets captured
+34 packets received by filter
+3 packets dropped by kernel
