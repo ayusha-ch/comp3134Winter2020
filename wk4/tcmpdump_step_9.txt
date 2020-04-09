@@ -1,0 +1,3 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i th0 tcp
+tcpdump: th0: No such device exists
+(SIOCGIFHWADDR: No such device)

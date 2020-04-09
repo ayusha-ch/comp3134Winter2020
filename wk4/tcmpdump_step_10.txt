@@ -1,0 +1,53 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+10:48:04.835719 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 2191781893:2191781929, ack 2960525542, win 319, length 36
+10:48:04.836145 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 36:144, ack 1, win 319, length 108
+10:48:04.836189 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 144:180, ack 1, win 319, length 36
+10:48:04.836233 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 180:288, ack 1, win 319, length 108
+10:48:04.836268 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 288:324, ack 1, win 319, length 36
+10:48:04.837171 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 324:536, ack 1, win 319, length 212
+10:48:04.837217 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 536:572, ack 1, win 319, length 36
+10:48:04.837282 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 572:760, ack 1, win 319, length 188
+10:48:04.837366 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 796:984, ack 1, win 319, length 188
+10:48:04.850160 IP oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 984, win 8287, length 0
+10:48:04.850220 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 984:2396, ack 1, win 319, length 1412
+10:48:04.850405 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 2396:2576, ack 1, win 319, length 180
+10:48:04.850582 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 2576:2612, ack 1, win 319, length 36
+10:48:04.850649 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 2612:2808, ack 1, win 319, length 196
+10:48:04.850695 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 2808:2844, ack 1, win 319, length 36
+10:48:04.850760 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 2844:3040, ack 1, win 319, length 196
+10:48:04.850831 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 3040:3076, ack 1, win 319, length 36
+10:48:04.850900 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 3076:3272, ack 1, win 319, length 196
+10:48:04.850952 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 3272:3308, ack 1, win 319, length 36
+10:48:04.851018 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 3308:3504, ack 1, win 319, length 196
+10:48:04.851126 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 3540:3736, ack 1, win 319, length 196
+10:48:04.851235 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 3772:3968, ack 1, win 319, length 196
+10:48:04.851353 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 4004:4200, ack 1, win 319, length 196
+10:48:04.851467 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 4236:4432, ack 1, win 319, length 196
+10:48:04.851576 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 4468:4664, ack 1, win 319, length 196
+10:48:04.860920 IP oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3040, win 8291, length 0
+10:48:04.860984 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 4664:6092, ack 1, win 319, length 1428
+10:48:04.861112 IP oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2808, win 8292, length 0
+10:48:04.861121 IP oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4004, win 8287, length 0
+10:48:04.861235 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 6092:6272, ack 1, win 319, length 180
+10:48:04.861317 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 6272:6308, ack 1, win 319, length 36
+10:48:04.861390 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 6308:6504, ack 1, win 319, length 196
+10:48:04.861437 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 6504:6540, ack 1, win 319, length 36
+10:48:04.861510 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 6540:6720, ack 1, win 319, length 180
+10:48:04.861597 IP oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4432, win 8292, length 0
+10:48:04.861775 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 6972:7168, ack 1, win 319, length 196
+10:48:04.861880 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 7204:7400, ack 1, win 319, length 196
+10:48:04.861968 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 7436:7632, ack 1, win 319, length 196
+10:48:04.862105 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 7668:7864, ack 1, win 319, length 196
+10:48:04.862203 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 7900:8096, ack 1, win 319, length 196
+10:48:04.862282 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 8132:8312, ack 1, win 319, length 180
+10:48:04.862360 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 8348:8544, ack 1, win 319, length 196
+10:48:04.862438 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 8580:8776, ack 1, win 319, length 196
+10:48:04.862536 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 8812:9008, ack 1, win 319, length 196
+10:48:04.862615 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 9044:9240, ack 1, win 319, length 196
+10:48:04.862693 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 9276:9472, ack 1, win 319, length 196
+10:48:04.862778 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 9508:9704, ack 1, win 319, length 196
+10:48:04.862869 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 9740:9936, ack 1, win 319, length 196
+10:48:04.862953 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 9972:10168, ack 1, win 319, length 196
+10:48:04.863071 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 10204:10400, ack 1, win 319, length 196

@@ -1,0 +1,65 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+10:38:42.067783 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 2189965393:2189965429, ack 2960519546, win 319, length 36
+        0x0000:  fe00 0000 0101 5a04 28ce eae1 0800 4510  ......Z.(.....E.
+        0x0010:  004c 17f5 4000 4006 79e0 a5e3 2d97 ae5b  .L..@.@.y...-..[
+        0x0020:  26f1 0016 f77a 8288 3851 b075 f17a 5018  &....z..8Q.u.zP.
+        0x0030:  013f a905 0000 703e db45 7825 c350 af59  .?....p>.Ex%.P.Y
+        0x0040:  3a21 e5c6 cde2 36e8 888b 8ae6 ca89 e302  :!....6.........
+        0x0050:  1a61 4967 884c 37e3 9a9b                 .aIg.L7...
+10:38:42.068814 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 36:144, ack 1, win 319, length 108
+        0x0000:  fe00 0000 0101 5a04 28ce eae1 0800 4510  ......Z.(.....E.
+        0x0010:  0094 17f6 4000 4006 7997 a5e3 2d97 ae5b  ....@.@.y...-..[
+        0x0020:  26f1 0016 f77a 8288 3875 b075 f17a 5018  &....z..8u.u.zP.
+        0x0030:  013f a94d 0000 a3c0 2623 607e a42e 2a58  .?.M....&#`~..*X
+        0x0040:  d99a 5341 5586 f4d0 9bd9 e4f5 ffd2 c3ed  ..SAU...........
+        0x0050:  3a5c db19 c1a4 dbd7 ec9d 40ed b4d3 9a00  :\........@.....
+        0x0060:  22c1 bb1c 3b5b 784b 4ced 57d7 73ea e949  "...;[xKL.W.s..I
+        0x0070:  d134 cf3a 319f 598f a7db 4f65 0782 3277  .4.:1.Y...Oe..2w
+        0x0080:  e96d d2a9 ff55 40eb 2872 5930 8881 b0a2  .m...U@.(rY0....
+        0x0090:  082b b6a2 01e8 7130 b618 129d 2036 6bc3  .+....q0.....6k.
+        0x00a0:  6db7                                     m.
+10:38:42.068858 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 144:180, ack 1, win 319, length 36
+        0x0000:  fe00 0000 0101 5a04 28ce eae1 0800 4510  ......Z.(.....E.
+        0x0010:  004c 17f7 4000 4006 79de a5e3 2d97 ae5b  .L..@.@.y...-..[
+        0x0020:  26f1 0016 f77a 8288 38e1 b075 f17a 5018  &....z..8..u.zP.
+        0x0030:  013f a905 0000 5049 cc94 89b0 29c0 85f3  .?....PI....)...
+        0x0040:  d5cf 12b8 b7dd 1b93 6b6c b98b 285f 97cf  ........kl..(_..
+        0x0050:  a6bc 137f 9d6b d876 8a42                 .....k.v.B
+10:38:42.068902 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 180:288, ack 1, win 319, length 108
+        0x0000:  fe00 0000 0101 5a04 28ce eae1 0800 4510  ......Z.(.....E.
+        0x0010:  0094 17f8 4000 4006 7995 a5e3 2d97 ae5b  ....@.@.y...-..[
+        0x0020:  26f1 0016 f77a 8288 3905 b075 f17a 5018  &....z..9..u.zP.
+        0x0030:  013f a94d 0000 ad58 07ec caca d4ec 9b0a  .?.M...X........
+        0x0040:  2373 af58 1eae 7f18 7038 7d98 3bb9 e1de  #s.X....p8}.;...
+        0x0050:  0e4c 46d8 02f7 0bdf ecbd c0bb e4a6 1fc2  .LF.............
+        0x0060:  1b23 ae27 554a 61ca 5fd7 fa67 3b2a a9a8  .#.'UJa._..g;*..
+        0x0070:  04ce 8f59 d896 79f9 0e58 370a f395 6b1e  ...Y..y..X7...k.
+        0x0080:  80fb 916b b2fb 9782 ff7a 83b6 dc32 a0b6  ...k.....z...2..
+        0x0090:  5e19 168c b802 b1be 1002 7229 006b 5c19  ^.........r).k\.
+        0x00a0:  d9c8                                     ..
+10:38:42.068936 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 288:324, ack 1, win 319, length 36
+        0x0000:  fe00 0000 0101 5a04 28ce eae1 0800 4510  ......Z.(.....E.
+        0x0010:  004c 17f9 4000 4006 79dc a5e3 2d97 ae5b  .L..@.@.y...-..[
+        0x0020:  26f1 0016 f77a 8288 3971 b075 f17a 5018  &....z..9q.u.zP.
+        0x0030:  013f a905 0000 335e 4d87 4e14 4366 f583  .?....3^M.N.Cf..
+        0x0040:  78f0 177a a7d2 9369 b7b3 4abb bdbe e9b3  x..z...i..J.....
+        0x0050:  e0f9 c452 9fbf 8c76 8f5c                 ...R...v.\
+10:38:42.069948 IP lamp-s-1vcpu-1gb-tor1-01.ssh > oshwon9563w-lp130-02-174-91-38-241.dsl.bell.ca.63354: Flags [P.], seq 324:536, ack 1, win 319, length 212
+        0x0000:  fe00 0000 0101 5a04 28ce eae1 0800 4510  ......Z.(.....E.
+        0x0010:  00fc 17fa 4000 4006 792b a5e3 2d97 ae5b  ....@.@.y+..-..[
+        0x0020:  26f1 0016 f77a 8288 3995 b075 f17a 5018  &....z..9..u.zP.
+        0x0030:  013f a9b5 0000 12ad fa82 a0bd ee68 6351  .?...........hcQ
+        0x0040:  c7bf e54c 0d2a 75b0 0f87 144b f0a8 20ad  ...L.*u....K....
+        0x0050:  d668 676e 3477 9706 7692 4e23 371f c77b  .hgn4w..v.N#7..{
+        0x0060:  36da f577 07ec d6a4 f9c6 dc07 eed2 787f  6..w..........x.
+        0x0070:  984f 1e72 c121 8025 c0c9 6b59 9fb7 f2ae  .O.r.!.%..kY....
+        0x0080:  db29 e95b ac5c 3155 1694 bd24 b839 20cb  .).[.\1U...$.9..
+        0x0090:  b7c4 e3d2 ee01 e884 45c8 0a31 17c4 eb7e  ........E..1...~
+        0x00a0:  0334 f4c9 5fd3 16e1 ef1f 8cd5 97fc 6db7  .4.._.........m.
+        0x00b0:  1a5c b88b 60bf da7c 08f3 92a7 f275 26f6  .\..`..|.....u&.
+
+85 packets captured
+272 packets received by filter
+181 packets dropped by kernel
